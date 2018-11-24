@@ -187,18 +187,18 @@ name split into two columns and with a reformatted account name string:
 
 ![excelfile](images/20090910_2.png)
 
-Prerequisites
+## Prerequisites
 
 Python (refer to [http://www.python.org](http://www.python.org))
 
 xlwt (refer to [http://www.python-excel.org](http://www.python-excel.org))
 
-Source Files and Scripts
+## Source Files and Scripts
 
 Source for the program and data text file are available at
 [http://github.com/pythonexcels/xlwt/tree/master](http://github.com/pythonexcels/xlwt/tree/master)
 
-References
+## References
 
 [http://www.python-excel.org](http://www.python-excel.org) contains pointers to
 the best information available aboutworking with Excel files in the Python
