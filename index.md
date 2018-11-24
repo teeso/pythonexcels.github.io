@@ -30,3 +30,9 @@ XLWT (as discussed
 you don’t even need a copy of Excel to do it. But to really open up your data
 and fully wring all the information possible from it, you’ll need Excel and its
 powerful set of functions, pivot tables and charting.
+
+## [Python Excel Mini Cookbook](./2009_10_05_Python_Excel_Mini_Cookbook.html)
+
+To get you started, I’ve illustrated a number of common tasks you can do with
+Python and Excel. Each program below is a self contained example, just copy it,
+paste it and run it.
