@@ -44,7 +44,7 @@ What follows is a step-by-step guide to entering this script and monitoring the 
 
 ### 1. Open the Python IDLE interface from the Start menu
 
-[IDLE Startup](images/20090929_idlestartmenu.png)
+![IDLE Startup](images/20090929_idlestartmenu.png)
 
 IDLE is the Python IDE built with the tkinter GUI toolkit, as quoted from the
 Python IDLE documentation, and gives you an interactive interface to enter, run
@@ -54,7 +54,7 @@ command line interface.
 
 ### 2. Import the win32 module
 
-[importwin32](images/20090929_idleimport.png)
+![importwin32](images/20090929_idleimport.png)
 
 If the import command was successful, you’ll see the “>>>” prompt returned. If
 there was a problem, such as not having the win32 module installed correctly,
@@ -77,7 +77,7 @@ add those in the next step.
 
 ### 5. Add a workbook, select the sheet “Sheet1” and rename it
 
-[idlewbws](images/20090929_idlewbws.png)
+![idlewbws](images/20090929_idlewbws.png)
 
 Excel needs a workbook to serve as a container for the worksheets. A new
 workbook containing 3 sheets is added with command ``wb = excel.Workbooks.Add()``.
@@ -85,11 +85,11 @@ The command ``ws=wb.Worksheets('Sheet1')`` assigns ws to the sheet named Sheet1,
 and the command ``ws.Name ='Built with Python'`` changes the name of Sheet1 to
 “Built with Python”. Your screen should now look something like this:
 
-[excelblank](images/20090929_excelblank.png)
+![excelblank](images/20090929_excelblank.png)
 
 ### 6. Add some text into the first cell
 
-[idlehello](images/20090929_idlehello.png)
+![idlehello](images/20090929_idlehello.png)
 
 Now the setup is complete and you can add data to the spreadsheet. There are
 several options for addressing cells and blocks of data in Excel, I’ll cover a
@@ -105,11 +105,11 @@ worksheet, and see the text printed in the IDLE window as well. Of course,
 Python can set values in the spreadsheet as well as query data from the
 spreadsheet.
 
-[excelhello](images/20090929_excelhello.png)
+![excelhello](images/20090929_excelhello.png)
 
 ### 7. Populate the second row with data by using a for loop
 
-[idle_for_loop](images/20090929_idlefor.png)
+![idle_for_loop](images/20090929_idlefor.png)
 
 In many cases you’ll have lists of data to insert into or extract from the
 worksheet. Wrapping the Cells(row,column).Value pattern with a loop seems like a
@@ -119,11 +119,11 @@ much better to transfer lists than individual elements whenever possible as
 shown in the next section. After this command, your Excel spreadsheet will look
 like this:
 
-[For loop results in excel](images/20090929_excelfor.png)
+![For loop results in excel](images/20090929_excelfor.png)
 
 ### 8. Populate the third and fourth rows of data
 
-[Range insertion](images/20090929_idlerange.png)
+![Range insertion](images/20090929_idlerange.png)
 
 A better approach to populating or extracting blocks of data is to use the
 ``Range().Value`` pattern. With this construct you can efficiently transfer a one-
@@ -133,29 +133,29 @@ cell address “A4:D4” to assign the results of the operation ``[i for i in ra
 In some cases, it may be more intuitive to use the Excel-style
 naming. The Excel sheet now looks like this:
 
-[Excel data insertion](images/20090929_excelfourrows.png)
+![Excel data insertion](images/20090929_excelfourrows.png)
 
 ### 9. Assign a formula to sum the numbers just added
 
-[Formula insertion](images/20090929_idleformula.png)
+![Formula insertion](images/20090929_idleformula.png)
 
 You can insert Excel formulas into cells using the .Formula pattern. The formula
 is the same as if you were to enter it in Excel: ``=SUM(A2:D4)``. In this example,
 the sum of 12 numbers in rows 2,3 and 4 is generated. Your Excel sheet should
 now look like the screenshot below.
 
-[Excel Formula](images/20090929_excelformula.png)
+![Excel Formula](images/20090929_excelformula.png)
 
 ### 11. Change the formatting of the formula cell
 
-[Formatting data](images/20090929_idleformat.png)
+![Formatting data](images/20090929_idleformat.png)
 
 As a final exercise, the format of the formula cell is changed to point size 16
 with a bold typeface. You can change any of dozens of attributes for the various
 cells in the worksheet through Python. Your spreadsheet should now look like
 this.
 
-[Formatting result in Excel](images/20090929_excelformat.png)
+![Formatting result in Excel](images/20090929_excelformat.png)
 
 Hopefully you did this exercise interactively, typing the commands and
 monitoring the result in Excel. You can also cut to the chase and run this

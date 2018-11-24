@@ -1,10 +1,7 @@
 
-# Python Excels Posts
-
 ## [What is Python Excels?](./09_07_03_What_is_Python_Excels.html)
 
 It’s time to give back. And get back.
-
 
 ## [Installing Python](./2009_07_18_Installing_Python.html)
 
