@@ -43,8 +43,9 @@ post](http://stackoverflow.com/questions/1352528/why-does-activepython-exist).
 
 ## Build from Source
 
-Source code for Python is available at http://www.python.org/download, and while
-it is possible to create a working Python installation for Windows by compiling
+Source code for Python is available at
+[http://www.python.org/download](http://www.python.org/download), and while it
+is possible to create a working Python installation for Windows by compiling
 from source, it’s beyond the scope of these exercises.
 
 ## Python Modules
@@ -61,9 +62,10 @@ installation at [http://sourceforge.net/projects/pywin32/files](http://sourcefor
 # Resources
 
 I won’t be covering the basics of Python, I suggest you check one of the many
-other resources. The links listed on http://www.python.org/doc are an excellent
-starting point, many people also like the Dive into Python book at
+other resources. The links listed on
+[http://www.python.org/doc](http://www.python.org/doc) are an excellent starting
+point, many people also like the Dive into Python book at
 [https://diveintopython.org](https://diveintopython.org). You can also find a
 number of other resources by searching for "learn python".
 
-(Originally posted on July 18, 2009 on https://pythonexcels.com)
+(Originally posted on July 18, 2009 on [https://pythonexcels.com](https://pythonexcels.com) )
