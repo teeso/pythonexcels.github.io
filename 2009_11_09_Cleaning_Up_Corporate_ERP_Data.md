@@ -29,7 +29,7 @@ spreadsheet.
 
 Take a look at the data in ABCDCatering.xls:
 
-[original](images/20091102_original.png)
+![original](images/20091102_original.png)
 
 The spreadsheet contains some header information, then a large table of records
 for each order. Each record contains the fiscal year and quarter, food item,
@@ -90,7 +90,7 @@ program interactively, you can investigate the data in the xldata tuple and
 display the data for the first record (xldata[0]) and header record
 (xldata[11]):
 
-[xldata0](images/20091102_xldata0.png)
+![xldata0](images/20091102_xldata0.png)
 
 The length of both rows is 13, though xldata[0] contains many elements with a
 value of None. The following code checks the length of the data and skips any
@@ -113,7 +113,7 @@ downloads produced by the ERP system have the column label over the numberical
 identifier for the item, while the text column header is blank. You can see that
 for the “Food” and “Company” data below.
 
-[foodcompany](images/20091102_foodcompany.png)
+![foodcompany](images/20091102_foodcompany.png)
 
 One approach that works for this data is to scan the header and insert a column
 header based on the contents of the previous column. For example, the label for
@@ -161,7 +161,7 @@ excel.Application.Quit()
 If the file newABCDCatering.xlsx or newABCDCatering.xls already exists in My
 Documents, you will see the following popup when you run the script.
 
-[existspopup](images/20091102_existspopup.png)
+![existspopup](images/20091102_existspopup.png)
 
 Click “Yes” to overwrite the spreadsheet file. To run the script cleanly, erase
 the file newABCDCatering.xlsx or newABCDCatering.xls and try the script again.
@@ -171,7 +171,7 @@ newABCDCatering.xls and view the contents. Note that the extraneous header
 information has been removed and blank column header information has been
 inserted programmatically as described earlier.
 
-[exceloutput](images/20091102_exceloutput.png)
+![exceloutput](images/20091102_exceloutput.png)
 
 The new spreadsheet is ready for use in a pivot table, which will be covered in
 the next post. Here is the complete script, also available at [https://github.com/pythonexcels/examples/blob/master/erpdata.py](https://github.com/pythonexcels/examples/blob/master/erpdata.py)
