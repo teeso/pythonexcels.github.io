@@ -27,8 +27,8 @@ excel.Application.Quit()
 
 ## Open an Existing Workbook
 
-This script opens an existing workbook and displays it (note the statement
-``excel.Visible =True``). The file workbook1.xlsx must already exist in your “My
+This script opens an existing workbook and displays it using 
+``excel.Visible =True``. The file workbook1.xlsx must already exist in your “My
 Documents” directory. You can also open spreadsheet files by specifying the full
 path to the file as shown below. Using ``r'`` in the statement
 ``r'C:\myfiles\excel\workbook2.xlsx'`` automatically escapes the backslash
@@ -68,12 +68,12 @@ excel.Application.Quit()
 ## Ranges and Offsets
 
 This script illustrates different techniques for addressing cells by using the
-Cells() and Range()operators. Individual cells can be addressed using
+``Cells()`` and ``Range()`` operators. Individual cells can be addressed using
 ``Cells(row,column)``, where row is the row number, column is the column number,
 both start from 1. Groups of cells can be addressed using ``Range()``, where the
 argument in the parenthesis can be a single cell denoted by its textual name (eg
 "A2"), a group noted by a textual name with a colon (eg "A3:B4") or a group
-denoted with two Cells() identifiers (eg ws.Cells(1,1),ws.Cells(2,2)). The
+denoted with two ``Cells()`` identifiers (eg ``ws.Cells(1,1),ws.Cells(2,2)``). The
 Offsetmethod provides a way to address a cell based on a reference to another
 cell. [https://github.com/pythonexcels/examples/blob/master/ranges_and_offsets.py](https://github.com/pythonexcels/examples/blob/master/ranges_and_offsets.py)
 
@@ -117,8 +117,8 @@ excel.Application.Quit()
 ## Cell Color
 
 This script illustrates adding an interior color to the cell using
-Interior.ColorIndex. Column A, rows 1 through 20 are filled with a number and
-assigned that ColorIndex. [https://github.com/pythonexcels/examples/blob/master/cell_color.py](https://github.com/pythonexcels/examples/blob/master/cell_color.py)
+``Interior.ColorIndex``. Column A, rows 1 through 20 are filled with a number and
+assigned that ``ColorIndex``. [https://github.com/pythonexcels/examples/blob/master/cell_color.py](https://github.com/pythonexcels/examples/blob/master/cell_color.py)
 
 ```
 #
@@ -138,8 +138,8 @@ excel.Application.Quit()
 ## Column Formatting
 
 This script creates two columns of data, one narrow and one wide, then formats
-the column width with the ColumnWidth property. You can also use the
-Columns.AutoFit() function to autofit all columns in the spreadsheet.
+the column width with the ``ColumnWidth`` property. You can also use the
+``Columns.AutoFit()`` function to autofit all columns in the spreadsheet.
 [https://github.com/pythonexcels/examples/blob/master/column_widths.py](https://github.com/pythonexcels/examples/blob/master/column_widths.py)
 
 ```
@@ -162,9 +162,10 @@ excel.Application.Quit()
 
 ## Copying Data from Worksheet to Worksheet
 
-This script uses the FillAcrossSheets() method to copy data from one location to
-all other worksheets in the workbook. Specifically, the data in the range A1:J10
-is copied from Sheet1 to sheets Sheet2 and Sheet3. [https://github.com/pythonexcels/examples/blob/master/copy_worksheet_to_worksheet.py](https://github.com/pythonexcels/examples/blob/master/copy_worksheet_to_worksheet.py)
+This script uses the ``FillAcrossSheets()`` method to copy data from one
+location to all other worksheets in the workbook. Specifically, the data in the
+range A1:J10 is copied from Sheet1 to sheets Sheet2 and Sheet3.
+[https://github.com/pythonexcels/examples/blob/master/copy_worksheet_to_worksheet.py](https://github.com/pythonexcels/examples/blob/master/copy_worksheet_to_worksheet.py)
 
 ```
 #
@@ -211,8 +212,9 @@ excel.Application.Quit()
 ## Setting Row Height
 
 This script illustrates row height. Similar to column height, row height can be
-set with the RowHeight method. You can also use ``AutoFit()`` to automatically adjust
-the row height based on cell contents. [https://github.com/pythonexcels/examples/blob/master/row_height.py](https://github.com/pythonexcels/examples/blob/master/row_height.py)
+set with the ``RowHeight`` method. You can also use ``AutoFit()`` to
+automatically adjust the row height based on cell contents.
+[https://github.com/pythonexcels/examples/blob/master/row_height.py](https://github.com/pythonexcels/examples/blob/master/row_height.py)
 
 ```
 #

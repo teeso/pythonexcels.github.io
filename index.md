@@ -1,7 +1,10 @@
 
 ## [What is Python Excels?](./09_07_03_What_is_Python_Excels.html)
 
-It’s time to give back. And get back.
+It’s time to give back. And get back. I’ll be sharing some ideas from the Python
+programs I’ve written, and talk about what problems were solved. I like to share
+work that is as complete as possible, so in most cases you should be able to
+download the script and try it right away for yourself.
 
 ## [Installing Python](./2009_07_18_Installing_Python.html)
 
@@ -36,3 +39,10 @@ powerful set of functions, pivot tables and charting.
 To get you started, I’ve illustrated a number of common tasks you can do with
 Python and Excel. Each program below is a self contained example, just copy it,
 paste it and run it.
+
+## [Mapping Excel VB Macros to Python](./2009_10_12_Mapping_Excel_VB_Macros_to_Python.html)
+
+A handy feature in Excel is the ability to quickly record a Visual Basic (VB)
+macro and save it. It’s also fairly simple to take a captured VB macro, tweak it
+slightly and use it in your Python scripts.
+
