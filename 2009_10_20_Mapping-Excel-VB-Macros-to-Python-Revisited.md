@@ -14,7 +14,7 @@ interface. Next, start Excel as you’ve done in the previous exercises. For thi
 exercise, add a workbook using the Workbooks.Add() construct, and set the ws
 variable to point to the first worksheet in the workbook.
 
-[startexcelidle](images/20091019_startexcelidle.png)
+![startexcelidle](images/20091019_startexcelidle.png)
 
 After typing these command in IDLE, you’ll see the Excel window that contains an
 empty spreadsheet. To build the multiplication table, use Python to populate the
@@ -31,11 +31,11 @@ function to transpose the flat list into a list of tuples. The complete
 statement is ``ws.Range("B2:B11").Value = zip([i for i in range(1,11)])``. The
 statements for completing the column and row headers are shown below.
 
-[headers](images/20091019_headers.png)
+![headers](images/20091019_headers.png)
 
 At this point the column and row headers will appear in the Excel spreadsheet.
 
-[headersexcel1](images/20091019_headersexcel1.png)
+![headersexcel1](images/20091019_headersexcel1.png)
 
 To define the product values for each cell in the table, create a formula to
 multiply the column and row header for a single cell, then used Excel to
@@ -51,11 +51,11 @@ Since this was demonstrated in the last post, please refer to that post if you
 need more information. The equivalent Python code to implement the autofill is
 shown below.
 
-[autofill](images/20091019_autofill.png)
+![autofill](images/20091019_autofill.png)
 
 The spreadsheet will now contain the complete multiplication table.
 
-[autofillexcel](images/20091019_autofillexcel.png)
+![autofillexcel](images/20091019_autofillexcel.png)
 
 To help illustrate conditional formatting, create another table of random
 integers between 1 and 100. Excel’s ``RAND()`` function will generate a random

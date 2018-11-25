@@ -52,4 +52,12 @@ The last post introduced a technique for recording a Visual Basic macro within
 Excel and migrating it to Python. This exercise will build on those techniques
 while leveraging Python for more of the work.
 
+## [Cleaning Up Corporate ERP Data](./2009_11_09_Cleaning_Up_Corporate_ERP_Data.html)
+
+The previous posts have used Excel and Python to create and manipulate small
+spreadsheets. In reality, Python and Excel are especially well suited to
+tackling large data sets. This post will illustrate some techniques for cleaning
+up data downloaded from corporate ERP systems such as SAP and Oracle, and
+getting it ready for some serious data mining with Excel.
+
 
