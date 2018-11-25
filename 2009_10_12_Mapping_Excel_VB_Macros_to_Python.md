@@ -87,7 +87,6 @@ Sub Macro1()
 '
 ' Macro1 Macro
 '
-
 '
     Range("B11:K11").Select
     Selection.AutoFill Destination:=Range("B11:K16"), Type:=xlFillDefault
@@ -266,7 +265,7 @@ Note that I didn’t capture the Workbooks.Open() or Workbooks.SaveAs lines in t
 | Range(“K2:P16”).Select	                                               | ws.Columns(“B:P”).Select()                                                    |
 | Columns(“B:P”).Select	                                                | ws.Columns(“B:P”).Select()                                                    |
 | Selection.ColumnWidth = 4                                              | 	excel.Selection.ColumnWidth = 4                                             |
-| excel.Application.Quit()                                               |                                                                               |
+| | excel.Application.Quit()                                               |
 
 ## Prerequisites
 

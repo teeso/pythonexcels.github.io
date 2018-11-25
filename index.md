@@ -46,3 +46,10 @@ A handy feature in Excel is the ability to quickly record a Visual Basic (VB)
 macro and save it. It’s also fairly simple to take a captured VB macro, tweak it
 slightly and use it in your Python scripts.
 
+## [Mapping Excel VB Macros to Python Revisited](2009_10_20_Mapping-Excel-VB-Macros-to-Python-Revisited.md)
+
+The last post introduced a technique for recording a Visual Basic macro within
+Excel and migrating it to Python. This exercise will build on those techniques
+while leveraging Python for more of the work.
+
+
