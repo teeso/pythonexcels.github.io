@@ -146,7 +146,7 @@ itself.
 To make the output spreadsheet more understandable, the title parameter passed
 into the function and used as a title in each worksheet and as the tab name.
 
-[Title Tabs](images/20091123_titlet)
+[Title Tabs](images/20091123_titletabsbq.png)
 
 The complete script is shown below. Caveats:
 
