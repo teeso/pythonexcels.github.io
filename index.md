@@ -1,5 +1,5 @@
 
-## [What is Python Excels?](./09_07_03_What_is_Python_Excels.html)
+## [What is Python Excels?](./2009_07_03_What_is_Python_Excels.html)
 
 It’s time to give back. And get back. I’ll be sharing some ideas from the Python
 programs I’ve written, and talk about what problems were solved. I like to share
@@ -60,4 +60,11 @@ tackling large data sets. This post will illustrate some techniques for cleaning
 up data downloaded from corporate ERP systems such as SAP and Oracle, and
 getting it ready for some serious data mining with Excel.
 
+## [Introducing Pivot Tables](./2009_11_11_Introducing_Pivot_Tables.html)
 
+In my professional life, I’ve found few people who have a solid knowledge of
+pivot tables and are really comfortable using them in Excel. If you aren’t aware
+of pivot tables or haven’t had the time to try out this function in Excel, pivot
+tables provide a way to cross tabulate, sort, segregate and aggregate tabular
+data, enabling you to quickly summarize data and extract totals, averages, and
+other information from the source data.
