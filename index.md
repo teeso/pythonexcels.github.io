@@ -73,3 +73,11 @@ other information from the source data.
 
 In this post I’ll develop and explain the Python code to create a set of pivot
 tables automatically in worksheet.
+
+## [Extending Pivot Table Data](20091203_Extending_Pivot_Table_Data.html)
+
+Python and Excel can help you quickly clean up a spreadsheet, organize data and
+build useful reports in very few lines of code. Another useful data preparation
+technique is to build new columns of information based on the available data,
+as shown in this post.
+
