@@ -81,3 +81,11 @@ build useful reports in very few lines of code. Another useful data preparation
 technique is to build new columns of information based on the available data,
 as shown in this post.
 
+## [A User Friendly Experience](20100207_A_User_Friendly_Experience.html)
+
+If you’re going to offer your users a Windows program, you better give them
+an icon to click and let them drag stuff onto it. And if something goes wrong,
+you better have a decent error message. This post will take the Pivot Table
+generation script developed in the Extending Pivot Table Data post and turn it
+into a user friendly Windows program with better flexibility and improved user
+experience.

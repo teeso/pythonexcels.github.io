@@ -36,33 +36,33 @@ left mouse key.
 Next, if you’re using Excel 2007 or later, select the Insert tab then select
 PivotTable from the Pivot Table icon
 
-![Insert Pivot Table](http://pythonexcels.com/blog/_images/20091111_makepivotxl12.png) 
+![Insert Pivot Table](images/20091111_makepivotxl12.png) 
 
 Because you’ve selected the spreadsheet data, the dialog should already be
 populated with the range ``Sheet2!$A1:$M791`` as shown below
 
-![Create Pivot Table](http://pythonexcels.com/blog/_images/20091111_createdialogxl12.png) 
+![Create Pivot Table](images/20091111_createdialogxl12.png) 
 
 Click OK to create the empty pivot table.
 
-![Empty Pivot Table](http://pythonexcels.com/blog/_images/20091111_wizardxl12.png) 
+![Empty Pivot Table](images/20091111_wizardxl12.png) 
 
 In Excel 2003 and earlier versions, select the table data as described above,
 then select Data->Pivot Table and Pivot Chart Report to create the pivot table.
 
-![Pivot Table Menu](http://pythonexcels.com/blog/_images/20091111_makepivotxl10.png) 
+![Pivot Table Menu](images/20091111_makepivotxl10.png) 
 
 You’re presented with a three step wizard. For now, just hit Next for the first
 two dialogs, thenFinish at the final dialog.
 
-![Dialog 1](http://pythonexcels.com/blog/_images/20091111_wizardxl10_1.png) 
-![Dialog 2](http://pythonexcels.com/blog/_images/20091111_wizardxl10_2.png) 
-![Dialog 3](http://pythonexcels.com/blog/_images/20091111_wizardxl10_3.png) 
+![Dialog 1](images/20091111_wizardxl10_1.png) 
+![Dialog 2](images/20091111_wizardxl10_2.png) 
+![Dialog 3](images/20091111_wizardxl10_3.png) 
 
 Once you’ve completed the above steps, you’ll see the following displayed in
 older versions of Excel.
 
-![Empty Pivot Table](http://pythonexcels.com/blog/_images/20091111_pivotfieldlistxl10.png) 
+![Empty Pivot Table](images/20091111_pivotfieldlistxl10.png) 
 
 Now you’re ready to do some data analysis.
 
@@ -75,20 +75,20 @@ Booking” to the Values section. (In older Excel versions, drag the “Fiscal
 Quarter” field directly onto the spreadsheet to the “Drop Row Fields Here” area,
 then drag the “Net Bookings” field onto the “Drop Data Items Here” area)
 
-![Pivot Table Field List](http://pythonexcels.com/blog/_images/20091111_ptsetupxl12.png) 
+![Pivot Table Field List](images/20091111_ptsetupxl12.png) 
 
 Your spreadsheet should now look something like this:
 
-![Pivot Table](http://pythonexcels.com/blog/_images/20091111_salesbyqtrxl12.png) 
+![Pivot Table](images/20091111_salesbyqtrxl12.png) 
 
 The header for the table data should say “Sum of Net Bookings”. If it doesn’t,
 double click on the header text and select “Sum” in the list box “Summarize
 value field by”, or right mouse click over the text and select Summarize Data
 By->Sum.
 
-![Value Field Settings](http://pythonexcels.com/blog/_images/20091111_setsumxl12.png) 
+![Value Field Settings](images/20091111_setsumxl12.png) 
 
-![Summarize By](http://pythonexcels.com/blog/_images/20091111_setsum2xl12.png) 
+![Summarize By](images/20091111_setsum2xl12.png) 
 
 Based on the spreadsheet data, the total net bookings in each of the last four
 quarters were $83465, $77180, $79605 and $77440 respectively.
@@ -102,7 +102,7 @@ for each food item, and “Food Name” contains the text description. Drag “F
 Name” to the Column Labels section (in older versions of Excel, drag it to the
 “Drop Column Fields Here” area). The spreadsheet should now look like this:
 
-![Sales by Food Item Setup](http://pythonexcels.com/blog/_images/20091111_salesbyfooditemxl12.png) 
+![Sales by Food Item Setup](images/20091111_salesbyfooditemxl12.png) 
 
 Note that each food item is listed as a column header, each of the four quarters
 are listed as row headers. Using this table you can quickly scan the data and
@@ -116,7 +116,7 @@ Name or Fiscal Quarter data fields. Remove them by selecting them in the Row
 Labels or Column Labels boxes and dragging them back to the top, or by clicking
 the small triangle and selecting “Remove Field”.
 
-![Remove Field](http://pythonexcels.com/blog/_images/20091111_removefieldxl12.png) 
+![Remove Field](images/20091111_removefieldxl12.png) 
 
 In Excel 2003 and earlier versions, select the column or row header and drag it
 back into the Field Chooser widget.
@@ -127,19 +127,19 @@ contains the list of companies and their purchases, listed in alphabetical
 order. To find the top 10 customers, select the booking number for Adobe
 Systems, right click and select Sort->Sort Largest to Smallest
 
-![Sort Largest to Smallest](http://pythonexcels.com/blog/_images/20091111_sortxl12.png) 
+![Sort Largest to Smallest](images/20091111_sortxl12.png) 
 
 In older versions of Excel, select a booking number and click the “Sort
 Descending” icon in the tool bar, or select “Data->Sort” from the menu and
 select the descending sort.
 
-![Sort Descending](http://pythonexcels.com/blog/_images/20091111_sortdesc.png) 
+![Sort Descending](images/20091111_sortdesc.png) 
 
 The list is now sorted, the top 10 customers for ABCD Catering are
 Hewlett-Packard, Intel, Oracle, Cisco Systems, Sanmina SCI, Sun Microsystems,
 Apple, Con-Way, eBay and Yahoo.
 
-![Top 10 Customers](http://pythonexcels.com/blog/_images/20091111_top10.png) 
+![Top 10 Customers](images/20091111_top10.png) 
 
 ### Who was the highest producing sales rep for the year?
 
@@ -148,16 +148,16 @@ producing rep, remove the Company Name field, replace it with the Sales Rep Name
 field and sort by Net Bookings. The top 10 sales reps are Dave Davidson, Lin
 Linares, Carl Carlson, Kay Kaywood and Nicole Nichols.
 
-![Top 10 Reps](http://pythonexcels.com/blog/_images/20091111_top10reps.png) 
+![Top 10 Reps](images/20091111_top10reps.png) 
 
 What accounts are these top reps responsible for? To find out, drag the Company
 Name field into the Row Labels area.
 
-![Top 10 Rep Accounts](http://pythonexcels.com/blog/_images/20091111_top10repsaccts.png) 
+![Top 10 Rep Accounts](images/20091111_top10repsaccts.png) 
 
 In older versions of Excel, drag Company Name directly onto the table
 
-![Top 10 Rep Accounts](http://pythonexcels.com/blog/_images/20091111_top10repsacctsxl10.png) 
+![Top 10 Rep Accounts](images/20091111_top10repsacctsxl10.png) 
 
 Since Hewlett-Packard, Intel and Cisco Systems were 3 of the top 4 producing
 accounts, it’s no surprise that their sales rep Dave Davidson was the top
@@ -172,12 +172,12 @@ the Sales Rep Name and Company Name row header fields and replace them with Food
 Name. To limit the data to the Q4 quarter, drag the Fiscal Quarter field to the
 Report Filter area, and select “2009-Q4”.
 
-![Fiscal Quarters](http://pythonexcels.com/blog/_images/20091111_quarterfilterxl12.png) 
+![Fiscal Quarters](images/20091111_quarterfilterxl12.png) 
 
 Finally, do a descending sort on the Sum of Quantity field to find the item with
 the highest unit sales.
 
-![Top Food Items](http://pythonexcels.com/blog/_images/20091111_highestunit.png) 
+![Top Food Items](images/20091111_highestunit.png) 
 
 The number one item by unit volume was Potato Chips, followed by Soda and
 Churro.

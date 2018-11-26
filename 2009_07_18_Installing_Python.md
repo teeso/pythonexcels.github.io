@@ -68,4 +68,4 @@ point, many people also like the Dive into Python book at
 [https://diveintopython.org](https://diveintopython.org). You can also find a
 number of other resources by searching for "learn python".
 
-(Originally posted on July 18, 2009 on [https://pythonexcels.com](https://pythonexcels.com) )
+Originally posted on July 18, 2009

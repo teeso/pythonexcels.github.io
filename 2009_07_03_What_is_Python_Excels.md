@@ -31,5 +31,5 @@ done better, leave a comment and share your knowledge.
 
 So sit back and let’s get ready to write some Python!
 
-(This post originally published July 3, 2009 on [https://pythonexcels.com](https://pythonexcels.com))
+Originally posted July 3, 2009
 
