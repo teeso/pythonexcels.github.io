@@ -68,3 +68,8 @@ of pivot tables or haven’t had the time to try out this function in Excel, piv
 tables provide a way to cross tabulate, sort, segregate and aggregate tabular
 data, enabling you to quickly summarize data and extract totals, averages, and
 other information from the source data.
+
+## [Automating Pivot Tables with Python](20091123_Automating_Pivot_Tables_with_Python.html)
+
+In this post I’ll develop and explain the Python code to create a set of pivot
+tables automatically in worksheet.
