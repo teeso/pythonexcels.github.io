@@ -12,13 +12,13 @@ to create a set of pivot tables automatically in worksheet.
 The goal of this exercise is to automate the generation of pivot tables from the
 last post, and save them to a new Excel file.
 
-[Pivot Tables](images/20091123_reports.png)
+![Pivot Tables](images/20091123_reports.png)
 
 I started with the file newABCDCatering.xls from the previous post and record
 the macro to create this simple pivot table showing Net Bookings by Sales Rep
 and Food Name for the last four quarters.
 
-[Net Bookings](images/20091123_setup.png)
+![Net Bookings](images/20091123_setup.png)
 
 Captured in Excel 2007, the recorded macro looks like this:
 
