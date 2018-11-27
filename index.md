@@ -89,3 +89,8 @@ you better have a decent error message. This post will take the Pivot Table
 generation script developed in the Extending Pivot Table Data post and turn it
 into a user friendly Windows program with better flexibility and improved user
 experience.
+
+## [Ninety Six Spreadsheets](./2012_09_22_Ninety_Six_Spreadsheets.html)
+
+Here's another application for Python and Excel: parsing a collection
+of spreadsheets for specific data.
